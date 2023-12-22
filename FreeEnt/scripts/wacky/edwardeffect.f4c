@@ -1,0 +1,169 @@
+// give everyone Hide
+
+actor(#DKCecil)
+{
+    commands {
+        #Fight
+        // %flag japanese_abilities on%
+        #DarkWave
+        // %end%
+        #Hide
+        #Item
+    }
+}
+
+actor(#Kain1)
+{
+    commands {
+        #Fight
+        #Jump
+        #Hide
+        #Item
+    }
+}
+
+actor(#CRydia)
+{
+    commands {
+        #Fight
+        #Black
+        #Call
+        #Hide
+        #Item
+    }
+}
+
+actor(#Tellah1)
+{
+    commands {
+        #Fight
+        #White
+        #Black
+        #Hide
+        #Item
+    }
+}
+
+actor(#Edward)
+{
+    commands {
+        #Fight
+        #Sing
+        #Hide
+        #Hide
+        #Item
+    }
+}
+
+actor(#Rosa1)
+{
+    commands {
+        #Fight
+        #White
+        #Aim
+        #Hide
+        #Item
+    }
+}
+
+actor(#Yang1)
+{
+    commands {
+        #Fight
+        #Kick
+        #Focus
+        #Hide
+        #Item
+    }
+}
+
+actor(#Palom)
+{
+    commands {
+        #Fight
+        #Black
+        // %flag japanese_abilities on%
+        #Bluff
+        // %end%
+        #Hide
+       #Item
+    }
+}
+
+actor(#Porom)
+{
+    commands {
+        #Fight
+        #White
+        // %flag japanese_abilities on%
+        #Cry
+        // %end%
+        #Hide
+        #Item
+    }
+}
+
+actor(#PCecil)
+{
+    commands {
+        #Fight
+        #White
+        #Cover
+        #Hide
+        #Item
+    }
+}
+
+actor(#Tellah3)
+{
+    commands {
+        #Fight
+        #White
+        #Black
+        #Hide
+        #Item
+    }
+}
+
+actor(#Cid)
+{
+    commands {
+        #Fight
+        #Peep
+        #Hide
+        #Item
+    }
+}
+
+actor(#ARydia)
+{
+    commands {
+        #Fight
+        #Black
+        #Call
+        #Hide
+        #Item
+    }
+}
+
+actor(#Edge)
+{
+    commands {
+        #Fight
+        #Dart
+        #Hide
+        #Ninja
+        #Item
+    }
+}
+
+actor(#Fusoya)
+{
+    commands {
+        #Fight
+        #White
+        #Black
+        #Hide
+        #Item
+    }
+}
