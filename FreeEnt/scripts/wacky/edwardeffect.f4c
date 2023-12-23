@@ -50,7 +50,6 @@ actor(#Edward)
         #Fight
         #Sing
         #Hide
-        #Hide
         #Item
     }
 }
