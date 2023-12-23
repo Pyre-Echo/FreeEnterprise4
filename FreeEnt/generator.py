@@ -351,6 +351,22 @@ class Environment:
         else:
             self._binary_patches[address.get_unheadered()] = data
 
+
+
+    def remove_file(self, filename):
+        self.remove_files(filename)
+
+    def remove_files(self, *filenames):
+        for filename in filenames:
+            if filename.lower() not in self._used_files:
+                #file not in use
+                continue
+            self._used_files.remove(filename.lower())
+
+            with open(os.path.join(self._file_root, filename), 'r') as infile:
+                script = f'// {filename}\n\n' + infile.read()
+                self._scripts.remove(script)
+
     def add_file(self, filename):
         self.add_files(filename)
 

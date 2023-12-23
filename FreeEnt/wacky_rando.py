@@ -478,4 +478,7 @@ def setup_saveusbigchocobo(env):
     env.meta['wacky_starter_kit'] = [( 'Carrot', [5] )]
 
 def apply_edwardeffect(env):
+    env.add_toggle('wacky_all_characters_hide')
     env.add_file('scripts/wacky/edwardeffect.f4c')
+    env.remove_file('scripts/hide_softlock_fixes.f4c')
+    

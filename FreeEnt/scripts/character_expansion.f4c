@@ -1908,8 +1908,9 @@ msfpatch {
         sta $_CharEx__CoverAssignments,x
 
         // also init no-autohide flags since we gotta somewhere
-        stz $_PreventAutoHideFlags
-
+        // %if ~wacky_all_chracters_hide%
+            stz $_PreventAutoHideFlags
+        // %end%
         lda ($80),y
         and #$1f
         beq $+Abort

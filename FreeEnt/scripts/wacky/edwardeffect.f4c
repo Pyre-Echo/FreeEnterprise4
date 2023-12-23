@@ -166,3 +166,14 @@ actor(#Fusoya)
         #Item
     }
 }
+
+
+// Skip edward and boss check for hide.
+msfpatch {
+    .def PreventAutoHideFlags  $7e1624
+
+    .addr $03AB51
+        jml $03AB5F
+}
+
+
